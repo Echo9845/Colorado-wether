@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653C250E2C98926C002D771F /* Colorado_wetherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C250D2C98926C002D771F /* Colorado_wetherApp.swift */; };
+		653C25102C98926C002D771F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C250F2C98926C002D771F /* ContentView.swift */; };
+		653C25122C98926D002D771F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653C25112C98926D002D771F /* Assets.xcassets */; };
+		653C25152C98926D002D771F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653C25142C98926D002D771F /* Preview Assets.xcassets */; };
+		653C251F2C98926D002D771F /* Colorado_wetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C251E2C98926D002D771F /* Colorado_wetherTests.swift */; };
+		653C25292C98926D002D771F /* Colorado_wetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C25282C98926D002D771F /* Colorado_wetherUITests.swift */; };
+		653C252B2C98926D002D771F /* Colorado_wetherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C252A2C98926D002D771F /* Colorado_wetherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		653C251B2C98926D002D771F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653C25022C98926B002D771F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653C25092C98926C002D771F;
+			remoteInfo = "Colorado wether";
+		};
+		653C25252C98926D002D771F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653C25022C98926B002D771F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653C25092C98926C002D771F;
+			remoteInfo = "Colorado wether";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		653C250A2C98926C002D771F /* Colorado wether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colorado wether.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		653C250D2C98926C002D771F /* Colorado_wetherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorado_wetherApp.swift; sourceTree = "<group>"; };
+		653C250F2C98926C002D771F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		653C25112C98926D002D771F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		653C25142C98926D002D771F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		653C251A2C98926D002D771F /* Colorado wetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colorado wetherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		653C251E2C98926D002D771F /* Colorado_wetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorado_wetherTests.swift; sourceTree = "<group>"; };
+		653C25242C98926D002D771F /* Colorado wetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colorado wetherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		653C25282C98926D002D771F /* Colorado_wetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorado_wetherUITests.swift; sourceTree = "<group>"; };
+		653C252A2C98926D002D771F /* Colorado_wetherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorado_wetherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653C25072C98926C002D771F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653C25172C98926D002D771F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653C25212C98926D002D771F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		653C25012C98926B002D771F = {
+			isa = PBXGroup;
+			children = (
+				653C250C2C98926C002D771F /* Colorado wether */,
+				653C251D2C98926D002D771F /* Colorado wetherTests */,
+				653C25272C98926D002D771F /* Colorado wetherUITests */,
+				653C250B2C98926C002D771F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		653C250B2C98926C002D771F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653C250A2C98926C002D771F /* Colorado wether.app */,
+				653C251A2C98926D002D771F /* Colorado wetherTests.xctest */,
+				653C25242C98926D002D771F /* Colorado wetherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653C250C2C98926C002D771F /* Colorado wether */ = {
+			isa = PBXGroup;
+			children = (
+				653C250D2C98926C002D771F /* Colorado_wetherApp.swift */,
+				653C250F2C98926C002D771F /* ContentView.swift */,
+				653C25112C98926D002D771F /* Assets.xcassets */,
+				653C25132C98926D002D771F /* Preview Content */,
+			);
+			path = "Colorado wether";
+			sourceTree = "<group>";
+		};
+		653C25132C98926D002D771F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				653C25142C98926D002D771F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		653C251D2C98926D002D771F /* Colorado wetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				653C251E2C98926D002D771F /* Colorado_wetherTests.swift */,
+			);
+			path = "Colorado wetherTests";
+			sourceTree = "<group>";
+		};
+		653C25272C98926D002D771F /* Colorado wetherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				653C25282C98926D002D771F /* Colorado_wetherUITests.swift */,
+				653C252A2C98926D002D771F /* Colorado_wetherUITestsLaunchTests.swift */,
+			);
+			path = "Colorado wetherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		653C25092C98926C002D771F /* Colorado wether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653C252E2C98926D002D771F /* Build configuration list for PBXNativeTarget "Colorado wether" */;
+			buildPhases = (
+				653C25062C98926C002D771F /* Sources */,
+				653C25072C98926C002D771F /* Frameworks */,
+				653C25082C98926C002D771F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colorado wether";
+			productName = "Colorado wether";
+			productReference = 653C250A2C98926C002D771F /* Colorado wether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		653C25192C98926D002D771F /* Colorado wetherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653C25312C98926D002D771F /* Build configuration list for PBXNativeTarget "Colorado wetherTests" */;
+			buildPhases = (
+				653C25162C98926D002D771F /* Sources */,
+				653C25172C98926D002D771F /* Frameworks */,
+				653C25182C98926D002D771F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653C251C2C98926D002D771F /* PBXTargetDependency */,
+			);
+			name = "Colorado wetherTests";
+			productName = "Colorado wetherTests";
+			productReference = 653C251A2C98926D002D771F /* Colorado wetherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		653C25232C98926D002D771F /* Colorado wetherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653C25342C98926D002D771F /* Build configuration list for PBXNativeTarget "Colorado wetherUITests" */;
+			buildPhases = (
+				653C25202C98926D002D771F /* Sources */,
+				653C25212C98926D002D771F /* Frameworks */,
+				653C25222C98926D002D771F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653C25262C98926D002D771F /* PBXTargetDependency */,
+			);
+			name = "Colorado wetherUITests";
+			productName = "Colorado wetherUITests";
+			productReference = 653C25242C98926D002D771F /* Colorado wetherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653C25022C98926B002D771F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					653C25092C98926C002D771F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					653C25192C98926D002D771F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 653C25092C98926C002D771F;
+					};
+					653C25232C98926D002D771F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 653C25092C98926C002D771F;
+					};
+				};
+			};
+			buildConfigurationList = 653C25052C98926B002D771F /* Build configuration list for PBXProject "Colorado wether" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 653C25012C98926B002D771F;
+			productRefGroup = 653C250B2C98926C002D771F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653C25092C98926C002D771F /* Colorado wether */,
+				653C25192C98926D002D771F /* Colorado wetherTests */,
+				653C25232C98926D002D771F /* Colorado wetherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653C25082C98926C002D771F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653C25152C98926D002D771F /* Preview Assets.xcassets in Resources */,
+				653C25122C98926D002D771F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653C25182C98926D002D771F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653C25222C98926D002D771F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653C25062C98926C002D771F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653C25102C98926C002D771F /* ContentView.swift in Sources */,
+				653C250E2C98926C002D771F /* Colorado_wetherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653C25162C98926D002D771F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653C251F2C98926D002D771F /* Colorado_wetherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653C25202C98926D002D771F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653C252B2C98926D002D771F /* Colorado_wetherUITestsLaunchTests.swift in Sources */,
+				653C25292C98926D002D771F /* Colorado_wetherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		653C251C2C98926D002D771F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653C25092C98926C002D771F /* Colorado wether */;
+			targetProxy = 653C251B2C98926D002D771F /* PBXContainerItemProxy */;
+		};
+		653C25262C98926D002D771F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653C25092C98926C002D771F /* Colorado wether */;
+			targetProxy = 653C25252C98926D002D771F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		653C252C2C98926D002D771F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		653C252D2C98926D002D771F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653C252F2C98926D002D771F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Colorado wether/Preview Content\"";
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Colorado-wether";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		653C25302C98926D002D771F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Colorado wether/Preview Content\"";
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Colorado-wether";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		653C25322C98926D002D771F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Colorado-wetherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colorado wether.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Colorado wether";
+			};
+			name = Debug;
+		};
+		653C25332C98926D002D771F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Colorado-wetherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colorado wether.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Colorado wether";
+			};
+			name = Release;
+		};
+		653C25352C98926D002D771F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Colorado-wetherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Colorado wether";
+			};
+			name = Debug;
+		};
+		653C25362C98926D002D771F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Colorado-wetherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Colorado wether";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		653C25052C98926B002D771F /* Build configuration list for PBXProject "Colorado wether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653C252C2C98926D002D771F /* Debug */,
+				653C252D2C98926D002D771F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653C252E2C98926D002D771F /* Build configuration list for PBXNativeTarget "Colorado wether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653C252F2C98926D002D771F /* Debug */,
+				653C25302C98926D002D771F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653C25312C98926D002D771F /* Build configuration list for PBXNativeTarget "Colorado wetherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653C25322C98926D002D771F /* Debug */,
+				653C25332C98926D002D771F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653C25342C98926D002D771F /* Build configuration list for PBXNativeTarget "Colorado wetherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653C25352C98926D002D771F /* Debug */,
+				653C25362C98926D002D771F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 653C25022C98926B002D771F /* Project object */;
+}
